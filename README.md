@@ -13,7 +13,7 @@ i5 - 7th Gen 4 Cores
 4GB 1050 GTX NVIDIA GPU
 
 
-### Day1:  SEP 8, 2024 7 PM AST
+### Required Software Packages 
 To get started with the OS there few libraries, tools required, most linux system will have all of the below software packages, if not try installing them. 
 -   **Bash-3.2**
 -   **Binutils-2.13.1**
@@ -142,3 +142,5 @@ Once all the required packages are installed proceed with LFS environment variab
 
 In general all systems comes with /bin/sh basic shell which was then replaced with bash or dash modern shells which has more features than basic sh. To follow along with the LFS book, I have changed the default shell from dash to bash. Check which shell current system uses: ```ls -l /bin/sh``` based on the response change it by creating an symlink to  ```/bin/bash```. 
 ```sudo ln -sf /bin/bash /bin/sh```
+
+### Creating a New Partitioning
